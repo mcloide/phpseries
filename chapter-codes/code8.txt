@@ -1,0 +1,22 @@
+# runing the server
+ 
+$ cd ~/public_html
+$ php -S localhost:8000
+ 
+# terminal output
+PHP 5.4.0 Development Server started at Thu Jul 21 10:43:28 2011
+Listening on localhost:8000
+Document root is /home/me/public_html
+Press Ctrl-C to quit
+ 
+# after a request is made
+ 
+PHP 5.4.0 Development Server started at Thu Jul 21 10:43:28 2011
+Listening on localhost:8000
+Document root is /home/me/public_html
+Press Ctrl-C to quit.
+[Thu Jul 21 10:48:48 2011] ::1:39144 GET /favicon.ico - Request read
+[Thu Jul 21 10:48:50 2011] ::1:39146 GET / - Request read
+[Thu Jul 21 10:48:50 2011] ::1:39147 GET /favicon.ico - Request read
+[Thu Jul 21 10:48:52 2011] ::1:39148 GET /myscript.html - Request read
+[Thu Jul 21 10:48:52 2011] ::1:39149 GET /favicon.ico - Request read
