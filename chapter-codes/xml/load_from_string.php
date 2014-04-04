@@ -1,0 +1,3 @@
+<?php
+$xmlStr = '<?xml version="1.0" encoding="utf-8" ?><states><!--US States and Territories--><state abbreviation="AL">Alabama</state><state abbreviation="AK">Alaska</state><state abbreviation="AZ">Arizona</state><state abbreviation="AR">Arkansas</state><state abbreviation="FL">Florida</state><state abbreviation="IN">Indiana</state><!-- list continues --></states>';
+$xml = simplexml_load_string($xmlStr);
